@@ -5,6 +5,17 @@
     <meta charset="utf-8">
     <meta description="This is abass cv page"> 
     <meta author="Abass Olaiya">
+    <link rel="icon" href="img/abass.jpg">
+    <link rel="stylesheet" href="index.css">
+    <style>
+        div {
+            /* background-color: blue; */
+
+            color: white;
+            font-style: italic;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    </style>
 
 </head>
 <body>
@@ -24,27 +35,33 @@
     <p>The <p> element defines a paragraph</p> -->
 
     
-    <center>
+    <center id="topmost">
         <h1>Abass Olaiya Ayotunde</h1>
         <p>Data Scientist</p>
         <p>+2347062962468</p>
         <p>abassolaiya@gmail.com</p>
     </center> 
     <hr>
-    <h3>Education</h3>
-    <strong>Obafemi Awolowo University</strong><br>
-    <em>Bsc. Statistics</em> ----------------------- <b>2012 - 2017</b>
-    <br> <br>
-    <Strong>Prospect Comprehensive College</Strong> <br>
-    <em>SSCE</em> ---------------------------------- <b>2014 - 2010</b>
+    <div class="boxes">
+        <h3 id="herder3">Education</h3>
+        <strong>Obafemi Awolowo University</strong><br>
+        <em>Bsc. Statistics</em> ----------------------- <b>2012 - 2017</b>
+        <br> <br>
+        <Strong>Prospect Comprehensive College</Strong> <br>
+        <em>SSCE</em> ---------------------------------- <b>2014 - 2010</b>
 
-    <hr>
-    <h3> <u>Certification</u></h3>
-    <b>Python Data Science Bootcamp</b>----------------- <b>2017</b>
-    <br>
-    <i>Udemy</i>
-    <br> <br>
-    <b>Complete Web Development Bootcamp</b> ----------- <b>2019</b>
+    </div>
+    
+    <div class="boxmodel">
+        <hr>
+        <h3> <u>Certification</u></h3>
+        <b>Python Data Science Bootcamp</b>----------------- <b>2017</b>
+        <br>
+        <i>Udemy</i>
+        <br> <br>
+        <b>Complete Web Development Bootcamp</b> ----------- <b>2019</b>
+    
+    </div>
     
     <center><p>Market List</p></center>
     <ul>
@@ -120,14 +137,17 @@
         </tfoot>
     </table>
     
-
-    <a href="https://www.google.com">Google</a>
-    <a href="about.html">About us</a>
-    <a href="contactus.html">ContactUs</a>
+    <div>
+        <a style="background-color: Red; color:white" href="https://www.google.com">Google</a>
+        <a href="about.html">About us</a>
+        <a href="contactus.html">ContactUs</a>
+    </div>
+    
 
     <br>
-    <img src="img/abass.jpg" alt="Abass">
-    <img src="https://www.collinsdictionary.com/images/full/school_309241295.jpg" alt="School Image">
+    <img src="img/abass.jpg" alt="Abass"><br>
+    <img class="funding" style="width: 300px; height:300px" src="img/funding.jpg" alt="funding"><br>
+    <img style="width: 300px; height:auto" src="https://www.collinsdictionary.com/images/full/school_309241295.jpg" alt="School Image">
 
     
 </body>
